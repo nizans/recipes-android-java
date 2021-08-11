@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193891378254",
+    "project_id": "nitzan-android-final",
+    "storage_bucket": "nitzan-android-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193891378254:android:5ee744e28735a53eac8f1f",
+        "android_client_info": {
+          "package_name": "com.example.barcodeshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193891378254-ofe8hof75uoju7630l98f7nrod0ssodk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barcodeshop",
+            "certificate_hash": "be115fad8e6b796a8732e829bca4e39cf4422a82"
+          }
+        },
+        {
+          "client_id": "193891378254-lm1f5oes6fbb7lv8rpjgqo4bb7cgjeef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm9PBWqaLQcWrA4eZgsXpzt-qEt7bhYEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193891378254-lm1f5oes6fbb7lv8rpjgqo4bb7cgjeef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

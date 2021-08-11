@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="Capture">Capture</string>
+    <string name="textview">TextView</string>
+    <string name="barcodeScan">Barcode Scan</string>
+    <string name="add">Add</string>
+    <string name="autocompletetextview">AutoCompleteTextView</string>
+    <string name="addRecipe">Add Recipe</string>
+    <string name="snackbar">SnackBar</string>
+
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="add_recipe_button">Add Recipe Button</string>
+
+
+    <string name="facebook_app_id">200163955305348</string>
+    <string name="fb_login_protocol_scheme">fb200163955305348</string>
+    <string name="write_recipe_description">Write Recipe Description</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="recipe_description">Recipe description…</string>
+    <string name="recipe_name">Recipe Name…</string>
+    <string name="next">Next</string>
+    <string name="capture">Capture</string>
+    <string name="save">Save</string>
+    <string name="register">Register</string>
+    <string name="enter_password">Enter password…</string>
+    <string name="enter_email">Enter email…</string>
+    <string name="already_a_user">Already a user</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_a_user">Not a User</string>
+    <string name="menu">MENU</string>
+    <string name="my_recipes">My Recipes</string>
+    <string name="app">APP</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">Sign out</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_name">Enter name…</string>
+    <string name="loading">Loading…</string>
+    <string name="recipe_photo">Recipe Photo</string>
+    <string name="calories">Calories</string>
+    <string name="fats">Fats</string>
+    <string name="carbs">Carbs</string>
+    <string name="proteins">Proteins</string>
+    <string name="sugers">Sugers</string>
+    <string name="name">Name...</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

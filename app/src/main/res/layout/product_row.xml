@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="fill_vertical"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="4"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:textSize="24sp"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/etAmount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:inputType="numberSigned"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/tvUnitsType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+
+            android:gravity="center_vertical"
+            android:text="units" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabRemoveProduct"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="Delete Product From List"
+            android:elevation="0dp"
+            android:focusable="true"
+            app:backgroundTint="#FFFFFF"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            app:srcCompat="@drawable/ic_baseline_delete_24"
+            app:fabCustomSize="24sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/unitSlider"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:valueFrom="0"
+            android:valueTo="100"
+            android:stepSize="1"
+            android:visibility="visible"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
